@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { ListItemComponent } from './components/list-item/list-item.component';
 import { TodosComponent } from './components/todos/todos.component';
+import { CreateComponent } from './components/create/create.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { TodosComponent } from './components/todos/todos.component';
     ListComponent,
     ListItemComponent,
     TodosComponent,
+    CreateComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
